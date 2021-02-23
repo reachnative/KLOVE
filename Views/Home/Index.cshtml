@@ -1,8 +1,14 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Daily Verses";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="app-container">
+    <h1> Daily Verse</h1>
+
+    <label for="startDate">Start Date</label><br/>
+    <input type="text" name="startDate" placeholder="Enter Start Date" /><br/>
+
+    <label for="numberOfVerses">Number of Verses</label><br/>
+    <input type="number" placeholder="10" />
 </div>
+
